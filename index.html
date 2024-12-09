@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+            padding: 0px;
+            margin: 0px;
+            background: url(images/back.jpg);
+        }
+
+        .left {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            display: inline-block;
+            /* border: 2px rgb(4, 189, 196) solid; */
+        }
+
+        .mid {
+
+            display: block;
+            right: 23px;
+            width: 0%;
+            margin: 25px auto;
+            /* border: 2px blue solid; */
+        }
+
+        .right {
+            color: rgb(226, 10, 10);
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            display: inline-block;
+            /* border: 2px rgb(147, 12, 214) solid; */
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 15px;
+        }
+
+        .navbar li a {
+            display: inline-block;
+            text-decoration: none;
+            color: rgb(241, 241, 241);
+            padding: 9px 8px;
+
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: darkmagenta;
+        }
+        
+
+        .mid img {
+            margin: -48px;
+            padding: 7px;
+            width: 210px;
+            height: 200px;
+        }
+
+        .btn {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: yellow;
+            background-color: black;
+            padding: 3px 12px;
+            margin: 12px 3px;
+            border: 2px grey solid;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: rgb(147, 12, 214);
+        }
+
+        .container {
+
+            /* border: 2px red solid; */
+            border-radius: 2px;
+            padding: 50px 130px;
+            margin: 0px 290px;
+            width: 500px;
+        }
+
+        .formg input {
+            border: 2px rgb(0, 0, 0) solid;
+            border-radius: 8px;
+            margin: 12px 6px;
+            padding: 4px 5px;
+            width: 450px;
+            text-align: center;
+            font-size: 21px;
+            display: block;
+
+        }
+
+        .container button {
+            width: 34px;
+            display: block;
+        }
+
+        .container h1 {
+            color: yellow;
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 122px;
+            margin: 10px auto;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Gym Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mid">
+            <img src="images/logo.png">
+
+        </div>
+        <div class="right">
+            <button class="btn">Call</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym now</h1>
+        <div class="formg">
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="formg">
+            <input type="number" placeholder="Age">
+        </div>
+        <div class="formg">
+            <input type="email" placeholder="Email Id">
+        </div>
+        <div class="formg">
+            <input type="text" placeholder="Contact Number">
+        </div>
+        <div class="formg">
+            <input type="text" placeholder="Type of fitness">
+        </div>
+
+        <div class="button">
+            <button class="btn">Submit</button>
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
